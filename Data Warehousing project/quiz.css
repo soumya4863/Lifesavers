@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-image: url("bg.jpeg");
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1.7rem;
+  
+}
+.quiz-container {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px white;
+  padding-left: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-shadow: 0 1px #00000010;
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(360deg, transparent, #ffffff);
+  min-height: 50vh;
+  background-color: antiquewhite;
+  position: relative;
+}
+.heading {
+font-size: 50px;
+font-family: cursive;
+font-weight: bolder;
+font-style: oblique;
+text-align: center;
+}
+.questions{
+font-family: cursive;
+font-size: 20px;
+margin-left: 60px;
+}
+.option1 {
+width: 75px;
+height: 75px;
+border: 5px solid red;
+border-radius: 100%;
+margin-left: 100px;
+}
+.option2 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid red;
+  border-radius: 75%;
+  color: red;
+  background-color: red;
+  
+  }
+  .option3 {
+    width: 25px;
+    height: 25px;
+    border: 5px solid red;
+    border-radius: 50%;
+   
+    }
+.option4 {
+      width: 50px;
+      height: 50px;
+      border: 5px solid red;
+      border-radius: 75%;
+     
+}
+.option5 {
+        width: 75px;
+        height: 75px;
+        border: 5px solid red;
+        border-radius: 100;
+       
+}
+#Submit {
+        width: 5em;
+        height : 2em;
+        background-color: green;
+        color: white;
+        font-family: cursive;
+        font-size: large;
+        margin-left: 40px;
+
+}
+#Reset{
+  width: 5em;
+  height : 2em;
+  background-color: lightcoral;
+  color: white;
+  font-family: cursive;
+  font-size: large;
+  margin-left: 60px;
+}
+#result{
+  font-family: cursive;
+  font-size: large;
+  margin-left: 50px;
+}
